@@ -1,0 +1,10 @@
+{
+  "name": "museum-of-bad-ideas",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Roblox Studio local files
+*.rbxl.lock
+*.rbxlx.lock
+*.autosave
+
+# Rojo / tool output
+*.rbxm
+*.rbxmx
+*.rbxl
+*.rbxlx
+build/
+dist/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
