@@ -20,12 +20,35 @@ Initial loop:
 
 ```text
 docs/
+  GAME_DESIGN_OVERVIEW.md
   MVP_PLAN.md
+  PROJECT_HANDOFF.md
+  TECHNICAL_ARCHITECTURE.md
 src/
-  ServerScriptService/
+  client/
+  server/
     PrototypeInteractionService.server.lua
+  shared/
+  workspace/
 default.project.json
+rokit.toml
 ```
+
+## Toolchain
+
+The intended source workflow uses Rokit and Rojo:
+
+```bash
+rojo serve
+```
+
+Build a place file with:
+
+```bash
+rojo build -o "roblox.rbxlx"
+```
+
+`default.project.json` maps `src/server`, `src/client`, `src/shared`, and `src/workspace` into the Roblox DataModel.
 
 ## Roblox Studio Workflow
 
@@ -40,10 +63,9 @@ default.project.json
    - `SanitationBooth`
 5. Put those Parts under `Workspace > Museum > Interactables`.
 6. Add a `ProximityPrompt` to each Part.
-7. Copy or sync `PrototypeInteractionService.server.lua` into `ServerScriptService`.
+7. Copy or sync `src/server/PrototypeInteractionService.server.lua` into `ServerScriptService`.
 8. Press Play and verify the Output messages and player attributes.
 
 ## Notes
 
 The first prototype should be rough and playable. Visual polish, cosmetics, badges, monetization, and additional wings come after the core interaction loop works.
-

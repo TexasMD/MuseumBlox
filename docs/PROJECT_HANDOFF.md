@@ -33,6 +33,7 @@ Known commits:
 ```text
 580a264 Initial Roblox prototype scaffold
 7ff0e9e Add game design overview
+c8e0f04 Add project handoff notes
 ```
 
 ## Project Concept
@@ -71,7 +72,9 @@ default.project.json
 docs\MVP_PLAN.md
 docs\GAME_DESIGN_OVERVIEW.md
 docs\PROJECT_HANDOFF.md
-src\ServerScriptService\PrototypeInteractionService.server.lua
+docs\TECHNICAL_ARCHITECTURE.md
+rokit.toml
+src\server\PrototypeInteractionService.server.lua
 ```
 
 ## Roblox Studio Setup
@@ -115,7 +118,7 @@ SanitationBooth
 6. Copy or sync this script into `ServerScriptService`:
 
 ```text
-src\ServerScriptService\PrototypeInteractionService.server.lua
+src\server\PrototypeInteractionService.server.lua
 ```
 
 7. Press Play and check the Output panel for prototype messages.
@@ -185,6 +188,26 @@ Use these files as the main design references:
 ```text
 docs\GAME_DESIGN_OVERVIEW.md
 docs\MVP_PLAN.md
+docs\TECHNICAL_ARCHITECTURE.md
 ```
 
 The first milestone is a rough playable prototype. Do not start with all rooms, cosmetics, monetization, or live events.
+
+## Incorporated External Handoff
+
+The technical handoff from Gemini/Antigravity was incorporated into this repo on July 7, 2026.
+
+Source path:
+
+```text
+C:\Users\sethm\.gemini\antigravity\brain\63945e90-4880-4762-90dd-5fa2148bd3bf\handoff_document.md
+```
+
+Key additions:
+
+- Rokit/Rojo toolchain notes
+- expanded `default.project.json` mapping
+- `src/client`, `src/server`, `src/shared`, and `src/workspace` structure
+- target service/controller architecture
+- shared definition file strategy
+- remote/event ownership guidance
