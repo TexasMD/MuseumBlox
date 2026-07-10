@@ -69,3 +69,7 @@ rojo build -o "roblox.rbxlx"
 ## Notes
 
 The first prototype should be rough and playable. Visual polish, cosmetics, badges, monetization, and additional wings come after the core interaction loop works.
+
+## AI Workflow
+
+For the recommended Jules, GitHub, Codex, and Roblox Studio MCP workflow, see `docs/AI_WORKFLOW.md`.
