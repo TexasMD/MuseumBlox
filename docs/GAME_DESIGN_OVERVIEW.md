@@ -101,6 +101,16 @@ Example quest:
 
 ## Proposed Rooms and Wings
 
+## Architecture and Environment
+
+The museum is housed in a bold, strong, and heroic multi-level building.
+- **Exterior:** The exterior features a curvy, whimsical, and fluid blob-like architecture, avoiding simple cubes and rectangles. It is designed to be captivating from the outside, accessible via one main entrance and one secondary entrance.
+- **Interior:** The interior follows a contemporary museum layout across two main floors, featuring a grand central atrium and approximately 20 rooms of varying sizes. The walls display numerous procedural paintings in different sizes and styles.
+- **Navigation:** The entire building, including all passageways, doorways, and stairs, is designed for smooth player navigation.
+- **Landscaping:** The surrounding grounds feature lush grass and winding cobblestone paths that complement the organic, flowing design of the exterior architecture.
+
+## Wings and Exhibits
+
 ### Grand Lobby of Poor Decisions
 
 The lobby is the player's first impression and central hub.
